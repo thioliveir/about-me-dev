@@ -1,0 +1,101 @@
+#intro {
+    max-width: 1366px;
+    height: 750px;
+    margin-inline: auto;
+    padding-block: 120px;
+    gap: 94px;
+
+    .info {
+        padding-inline: 143px;
+        gap: 80px;
+        margin-bottom: 94px;
+
+        header {
+            margin-inline: 173px;
+            place-items: center;
+            gap: 56px;
+    
+            .avatar {
+                width: 112px;
+                position: relative;
+                padding: 8px;
+                img:nth-child(1) {
+                    width: 96px;
+                    aspect-ratio: 1/1;
+                    padding: 4.35px;
+                    object-fit: cover;
+                    border-radius: 50%;
+                    border: 2px solid var(--color-red);
+                }
+                img:nth-child(2) {
+                    width: 32px;
+                    aspect-ratio: 1/1;
+                    position: absolute;
+                    top: 79px;
+                    left: 72px;
+                }
+            }
+    
+            
+    
+            .text {
+                justify-items: center;
+    
+                span {
+                    color: var(--color-red);
+                }
+    
+                h1 {
+                    margin-bottom: 20px;
+                }
+                p {
+                    text-align: center;
+                }
+            }       
+        }
+
+        .tag {
+            justify-items: center;
+
+            ul {
+                gap: 16px;
+                li {
+                    display: flex;
+                    align-items: center;
+                    padding: 8px 16px;
+                    background: var(--color-gray-300);
+                    border-radius: 999px;
+                    img {
+                        width: 24px;
+                        aspect-ratio: 1/1;
+                        margin-right: 8px;
+                    }
+                    a {
+                        color: var(--color-gray-500);
+
+                        &:hover {
+                            color: var(--color-blue);
+                        }
+                    }
+
+                }
+                
+                
+            }
+            
+            
+        }
+    }
+
+    .doubledown {
+        justify-content: center;
+        
+        img {
+            width: 32px;
+            aspect-ratio: 1/1;
+        }
+    }
+}
+
+
+

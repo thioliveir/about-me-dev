@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /*Tipogragh*/
+    --family-asap: "Asap", sans-serif;
+    --family-incosolata: "Inconsolata", monospace;
+    --family-maven: "Maven Pro", sans-serif;
+    --title-lg: 900 56px/120% var(--family-asap);
+    --title-md: 900 24px/120% var(--family-asap);
+    --title-sm: 900 16px/120% var(--family-asap);
+    --subtitle: 400 20px/120% var(--family-incosolata);
+    --text-md: 400 16px/140% var(--family-maven);
+    --text-sm: 400 14px/140% var(--family-maven);
+
+    /*Color*/
+    --color-red: #E3646E;
+    --color-purple: #BB72E9;
+    --color-blue: #3996DB;
+    --color-green: #82BC4F;
+    --color-yellow: #EABD5F;
+    --color-gray-100: #0D0E11;
+    --color-gray-200: #16181D;
+    --color-gray-300: #292C34;
+    --color-gray-400: #878EA1;
+    --color-gray-500: #C0C4CE;
+    --color-gray-600: #E2E4E9;
+
+}
+
+h1 {
+    font: var(--title-lg);
+    color: var(--color-gray-600);
+}
+
+h4 {
+    font: var(--subtitle);
+    color: var(--color-gray-500);
+}
+
+main {
+    background-image: url(../img/Intro.jpg);
+    background-repeat: round;
+}
+body {
+    font: var(--text-sm);
+    color: var(--color-gray-400);
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
