@@ -4,3 +4,11 @@
 .grid {
     display: grid;
 }
+.grid-cols {
+    grid-template-columns: repeat(3, 330px);
+    gap: 24px;
+}
+
+.container {
+    padding-inline: 120px;
+}
